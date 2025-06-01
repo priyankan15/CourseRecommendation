@@ -15,10 +15,10 @@ Build a semantic course recommendation engine using OpenAI embeddings and vector
 ## Tech Stack
 
 - **Language:** Python 3.10+
-- **LLM:** OpenAI `text-embedding-3-small` or `text-embedding-ada-002`
-- **Vector DB:** ChromaDB or FAISS
-- **Framework:** LangChain or plain Python
-- **Input Format:** CSV/JSON course catalog
+- **LLM:** text-embedding-ada-002
+- **Vector DB:** ChromaDB
+- **Framework:** LangChain
+- **Input Format:** CSV
 - **Output:** JSON object with top N course recommendations
 
 ---
